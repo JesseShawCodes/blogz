@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 import cgi
 
 app = Flask(__name__)
-app.config['DEBUG'] = True      # displays runtime errors in the browser, too
+app.config['DEBUG'] = True 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://blogz:EFG7ziwMfYl1Tds1@localhost:8889/blogz'
 app.config['SQLALCHEMY_ECHO'] = True
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
